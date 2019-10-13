@@ -36,6 +36,18 @@
             </div>
           </div>
         </template>
+        <template class="js-task-popup">
+          <button class="task_item_btn js-task-item-btn" type="button"></button>
+          <div class="task_popup_controls js-task-popup-controls">
+            <input class="task_item_input js-input-task" type="text" name="edit"/>
+            <button class="task_item_save js-task-item-save valid" type="button">Сохранить</button>
+          </div>
+          <ul class="task_item_popup js-task-popup-list">
+            <li class="task_popup_edit js-task-item-edit">Редактировать</li>
+            <li class="task_popup_edit js-task-item-delete">Удалить</li>
+            <li class="task_popup_edit task_popup_close js-task-item-close"></li>
+          </ul>
+        </template>
       </section>
     </div>
     <div class="beforeBodyEnd" style="display: none">
